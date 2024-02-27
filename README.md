@@ -19,6 +19,7 @@ La función debe recibir una lista de enteros y retornar solo aquellos que sean 
 
                                                                opperaciones
 #1R/= 
+
 def operacion_basica(numero1, numero2, operador):
     if operador == '+':
         resultado = numero1 + numero2

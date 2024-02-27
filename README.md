@@ -17,6 +17,7 @@ La función debe recibir una lista de enteros y retornar solo aquellos que sean 
 
                                                               DESAROLLO
 #1R/= 
+```python
 def operacion_basica(numero1, numero2, operador):
     if operador == '+':
         resultado = numero1 + numero2
@@ -39,14 +40,14 @@ numero2 = float(input("Ingrese el segundo número: "))
 operador = input("Ingrese el operador (+, -, *, /): ")
 
 print("El resultado es:", operacion_basica(numero1, numero2, operador))
-
+```
 
 yo yege a esta solucion tratando de emular una calculadora a si que puse para que pidiera los 2 numeros de las operaciones y luego el simbolo lo gre tal cosa ayudandome de videos en youtube
 
                                                                              palindrmos
 
 #2R/=  
-
+```python
 def es_palindromo(palabra):
     palabra = palabra.lower()  # Convertir la palabra a minúsculas para hacer la comparación case-insensitive
     longitud = len(palabra)
@@ -63,7 +64,7 @@ for palabra in palabras:
         print(f"'{palabra}' es un palíndromo.")
     else:
         print(f"'{palabra}' no es un palíndromo.")
-
+```
 
 
         para este caso ya que no podi aser silingk desidi aselo de una manera de que se revisara de los estremos al sentro ya que todo palindromo sienpre tendia el mismo centro  Y UN LADO DEBE ESTAR asi la isquierda y el otro acia la derecha
@@ -72,6 +73,7 @@ for palabra in palabras:
                                                       primos
 
         #3R/=
+```python
 def es_primo(numero):
     if numero < 2:
         return False
@@ -91,14 +93,14 @@ def primos_en_lista(lista):
 numeros = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 primos = primos_en_lista(numeros)
 print("Números primos en la lista:", primos)
-
+```
         
 y ese lo mas facil y segi las reiglas busque una manera y la encontre de comprobar de un numero es solo dibisible por si mismo y por uno y si no no es primo
 
                                                   mayor suma consecutiva
 
 #4R/= 
-
+```python
 def mayor_suma_consecutiva(lista):
     if len(lista) < 2:
         return None  # No se puede calcular la suma con menos de dos elementos
@@ -114,7 +116,7 @@ def mayor_suma_consecutiva(lista):
 
 numeros = [1, 2, 3, 4, 5, 6, 7]
 print("La mayor suma entre dos elementos consecutivos es:", mayor_suma_consecutiva(numeros))
-
+```
 
 en esta lo hice sumando los 2 primeros y luego segir sumando asta que se acaben los numeros y el el proceso ir comparando asta que yege a la solucion o
 yo llege a esta soluion cuando ise una lista en mi cuaderno y comense a sumar y luego compare los resultados de las sumas
@@ -123,7 +125,7 @@ yo llege a esta soluion cuando ise una lista en mi cuaderno y comense a sumar y 
 
 #5R/=
 
-
+```python
 def mismo_caracter(lista):
     if not lista:  # Si la lista está vacía, retornamos una lista vacía
         return []
@@ -141,6 +143,6 @@ def mismo_caracter(lista):
 entrada = ["cara", "raca", "arca"]
 salida = mismo_caracter(entrada)
 print(salida)  
-
+```
 esta fue la mas facil de encontrar una solucion solo fue encontrar una manera de comparar las palabras
 

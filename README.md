@@ -19,7 +19,6 @@ La función debe recibir una lista de enteros y retornar solo aquellos que sean 
 
                                                                opperaciones
 #1R/= 
-
 def operacion_basica(numero1, numero2, operador):
     if operador == '+':
         resultado = numero1 + numero2
@@ -36,12 +35,13 @@ def operacion_basica(numero1, numero2, operador):
         resultado = "Operador no válido"
     return resultado
 
-# Ejemplo de uso:
+# Ejemplo de uso
 numero1 = float(input("Ingrese el primer número: "))
 numero2 = float(input("Ingrese el segundo número: "))
 operador = input("Ingrese el operador (+, -, *, /): ")
 
 print("El resultado es:", operacion_basica(numero1, numero2, operador))
+
 
 yo yege a esta solucion tratando de emular una calculadora a si que puse para que pidiera los 2 numeros de las operaciones y luego el simbolo lo gre tal cosa ayudandome de videos en youtube
 

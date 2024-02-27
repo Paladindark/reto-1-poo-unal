@@ -49,7 +49,6 @@ yo yege a esta solucion tratando de emular una calculadora a si que puse para qu
 
 #2R/=  
 
-
 def es_palindromo(palabra):
     palabra = palabra.lower()  # Convertir la palabra a minúsculas para hacer la comparación case-insensitive
     longitud = len(palabra)
@@ -68,15 +67,14 @@ for palabra in palabras:
         print(f"'{palabra}' no es un palíndromo.")
 
 
+
         para este caso ya que no podi aser silingk desidi aselo de una manera de que se revisara de los estremos al sentro ya que todo palindromo sienpre tendia el mismo centro  Y UN LADO DEBE ESTAR asi la isquierda y el otro acia la derecha
 
 
                                                       primos
 
         #3R/=
-
-        
-        def es_primo(numero):
+def es_primo(numero):
     if numero < 2:
         return False
     for i in range(2, int(numero**0.5) + 1):
@@ -96,12 +94,12 @@ numeros = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 primos = primos_en_lista(numeros)
 print("Números primos en la lista:", primos)
 
+        
 y ese lo mas facil y segi las reiglas busque una manera y la encontre de comprobar de un numero es solo dibisible por si mismo y por uno y si no no es primo
 
                                                   mayor suma consecutiva
 
 #4R/= 
-
 
 def mayor_suma_consecutiva(lista):
     if len(lista) < 2:
@@ -117,8 +115,9 @@ def mayor_suma_consecutiva(lista):
     return mayor_suma
 
 # Ejemplo de uso:
-numeros = [1, 2, 3, 9, 5, 4, 9]
+numeros = [1, 2, 3, 4, 5, 6, 7]
 print("La mayor suma entre dos elementos consecutivos es:", mayor_suma_consecutiva(numeros))
+
 
 en esta lo hice sumando los 2 primeros y luego segir sumando asta que se acaben los numeros y el el proceso ir comparando asta que yege a la solucion o
 yo llege a esta soluion cuando ise una lista en mi cuaderno y comense a sumar y luego compare los resultados de las sumas

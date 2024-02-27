@@ -12,7 +12,7 @@ actividad 1 poo unal
 5 Escribir una función que reciba una lista de cadenas y retorne únicamente aquellos elementos que tengan los mismos caracteres. por ejemplo entrada: ["amor", "roma", "perro"], salida["amor", "roma"]
 
                                                                DESARRO
-1R/= 
+#1R/= 
 def operacion_basica(numero1, numero2, operador):
     if operador == '+':
         resultado = numero1 + numero2
@@ -38,7 +38,9 @@ print("El resultado es:", operacion_basica(numero1, numero2, operador))
 
 yo yege a esta solucion tratando de emular una calculadora a si que puse para que pidiera los 2 numeros de las operaciones y luego el simbolo lo gre tal cosa ayudandome de videos en youtube
 
-2R/=  
+#2R/=  
+
+
 def es_palindromo(palabra):
     palabra = palabra.lower()  # Convertir la palabra a minúsculas para hacer la comparación case-insensitive
     longitud = len(palabra)
@@ -59,7 +61,9 @@ for palabra in palabras:
 
         para este caso ya que no podi aser silingk desidi aselo de una manera de que se revisara de los estremos al sentro ya que todo palindromo sienpre tendia el mismo centro  Y UN LADO DEBE ESTAR asi la isquierda y el otro acia la derecha
 
-        3R/=
+        #3R/=
+
+        
         def es_primo(numero):
     if numero < 2:
         return False
@@ -82,7 +86,9 @@ print("Números primos en la lista:", primos)
 
 y ese lo mas facil y segi las reiglas busque una manera y la encontre de comprobar de un numero es solo dibisible por si mismo y por uno y si no no es primo
 
-4R/= 
+#4R/= 
+
+
 def mayor_suma_consecutiva(lista):
     if len(lista) < 2:
         return None  # No se puede calcular la suma con menos de dos elementos
@@ -103,7 +109,9 @@ print("La mayor suma entre dos elementos consecutivos es:", mayor_suma_consecuti
 en esta lo hice sumando los 2 primeros y luego segir sumando asta que se acaben los numeros y el el proceso ir comparando asta que yege a la solucion o
 yo llege a esta soluion cuando ise una lista en mi cuaderno y comense a sumar y luego compare los resultados de las sumas
 
-5R/=
+#5R/=
+
+
 def mismo_caracter(lista):
     if not lista:  # Si la lista está vacía, retornamos una lista vacía
         return []

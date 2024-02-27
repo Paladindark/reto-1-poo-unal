@@ -45,7 +45,7 @@ print("El resultado es:", operacion_basica(numero1, numero2, operador))
 
 yo yege a esta solucion tratando de emular una calculadora a si que puse para que pidiera los 2 numeros de las operaciones y luego el simbolo lo gre tal cosa ayudandome de videos en youtube
 
-                                               palindrmos
+                                                                             palindrmos
 
 #2R/=  
 

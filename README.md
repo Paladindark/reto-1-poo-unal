@@ -112,7 +112,6 @@ def mayor_suma_consecutiva(lista):
 
     return mayor_suma
 
-# Ejemplo de uso:
 numeros = [1, 2, 3, 4, 5, 6, 7]
 print("La mayor suma entre dos elementos consecutivos es:", mayor_suma_consecutiva(numeros))
 

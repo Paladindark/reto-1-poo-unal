@@ -33,7 +33,7 @@ def operacion_basica(numero1, numero2, operador):
         resultado = "Operador no válido"
     return resultado
 
-# Ejemplo de uso
+
 numero1 = float(input("Ingrese el primer número: "))
 numero2 = float(input("Ingrese el segundo número: "))
 operador = input("Ingrese el operador (+, -, *, /): ")
@@ -55,7 +55,7 @@ def es_palindromo(palabra):
             return False
     return True
 
-# Ejemplo de uso:
+
 palabras = ["reconocer", "radar", "somos", "oso", "luzazul", "anitalavalatina"]
 
 for palabra in palabras:
@@ -87,7 +87,7 @@ def primos_en_lista(lista):
             primos.append(numero)
     return primos
 
-# Ejemplo de uso:
+
 numeros = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 primos = primos_en_lista(numeros)
 print("Números primos en la lista:", primos)
@@ -139,7 +139,6 @@ def mismo_caracter(lista):
 
     return resultado
 
-# Ejemplo de uso:
 entrada = ["cara", "raca", "arca"]
 salida = mismo_caracter(entrada)
 print(salida)  

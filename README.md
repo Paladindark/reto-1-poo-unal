@@ -15,9 +15,7 @@ La función debe recibir una lista de enteros y retornar solo aquellos que sean 
 5 Escribir una función que reciba una lista de cadenas y retorne únicamente aquellos elementos que tengan los mismos caracteres
 . por ejemplo entrada: ["amor", "roma", "perro"], salida["amor", "roma"]
 
-                                                               DESARollo
-
-                                                               opperaciones
+                                                              DESAROLLO
 #1R/= 
 def operacion_basica(numero1, numero2, operador):
     if operador == '+':

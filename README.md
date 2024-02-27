@@ -12,6 +12,8 @@ actividad 1 poo unal
 5 Escribir una función que reciba una lista de cadenas y retorne únicamente aquellos elementos que tengan los mismos caracteres. por ejemplo entrada: ["amor", "roma", "perro"], salida["amor", "roma"]
 
                                                                DESARollo
+
+                                                               opperaciones
 #1R/= 
 def operacion_basica(numero1, numero2, operador):
     if operador == '+':
@@ -38,6 +40,8 @@ print("El resultado es:", operacion_basica(numero1, numero2, operador))
 
 yo yege a esta solucion tratando de emular una calculadora a si que puse para que pidiera los 2 numeros de las operaciones y luego el simbolo lo gre tal cosa ayudandome de videos en youtube
 
+                                               palindrmos
+
 #2R/=  
 
 
@@ -60,6 +64,9 @@ for palabra in palabras:
 
 
         para este caso ya que no podi aser silingk desidi aselo de una manera de que se revisara de los estremos al sentro ya que todo palindromo sienpre tendia el mismo centro  Y UN LADO DEBE ESTAR asi la isquierda y el otro acia la derecha
+
+
+                                                      primos
 
         #3R/=
 
@@ -86,6 +93,8 @@ print("Números primos en la lista:", primos)
 
 y ese lo mas facil y segi las reiglas busque una manera y la encontre de comprobar de un numero es solo dibisible por si mismo y por uno y si no no es primo
 
+                                                  mayor suma consecutiva
+
 #4R/= 
 
 
@@ -108,6 +117,8 @@ print("La mayor suma entre dos elementos consecutivos es:", mayor_suma_consecuti
 
 en esta lo hice sumando los 2 primeros y luego segir sumando asta que se acaben los numeros y el el proceso ir comparando asta que yege a la solucion o
 yo llege a esta soluion cuando ise una lista en mi cuaderno y comense a sumar y luego compare los resultados de las sumas
+
+                                                  palabras ijuales
 
 #5R/=
 
